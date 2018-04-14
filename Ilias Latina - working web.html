@@ -4,11 +4,11 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 <style type="text/css">
-	html{
+	html {
 		font:125%/175% "DB";
 		background-color: #fafafa;
 	}
-	header{
+	header {
 		position: fixed;
 		top:0;
 		left:0;
@@ -19,11 +19,11 @@
 		box-shadow: -2px 4px 4px 0px #870000;
 		z-index: 1000;
 	}
-	header>div{
+	header>div {
 		margin-right:15px;
 		text-align: center;
 	}
-	content{
+	content {
 	    display: block;
 		background-color: #fff;
 	    margin: 50px auto;
@@ -32,10 +32,10 @@
 		border: 1px solid #a1a1a1;
 		box-shadow: 4px 2px 10px 2px #d8d8d8;
 	}
-	.line::hover{
-		background:#fbe9e7;
+	.line:hover {
+		background-color:#edf9fc;
 	}
-	.line::before {
+	.line:before {
 		content: attr(data-linenumber);
 		display: inline-block;
 		width: 60px;
@@ -45,7 +45,7 @@
 		text-align: right;
 		opacity: .25;
 	}
-	[data-bookbegin]::after {
+	[data-bookbegin]:after {
 		content: attr(data-bookbegin);
 		float: right;
 		padding: 0 25px;
@@ -57,16 +57,15 @@
 		text-align: right;
 		background-color:#bf360c;
 	}
-	.line::hover::before {
+	.line:hover:before {
 		font-weight: bold;
-		color: #870000;
 		opacity: 1;
 	}
-	.indent{
+	.indent {
 		margin-top: 1rem;
 	}
-	h1{
-		margin: 2.5em 0 1em -30px;
+	h1 {
+		margin: 3.5em 0 2em -30px;
 		font-family: "DB SC";
 		font-size: 1.2rem;
 		font-weight: normal;
@@ -81,7 +80,7 @@
 <body>
 
 <header>
-<div>P. Baebius Italicus [“Homerus”], <i>Ilias Latina</i></div>
+<div>Publius Baebius Italicus [“Homerus”], <i>Ilias Latina</i></div>
 </header>
 
 <content>
@@ -94,7 +93,8 @@
 <div class="line" data-linenumber="6">cōnfīēbat enim summī sententia rēgis,</div>
 <div class="line" data-linenumber="7">&lang;unde et&rang; pertulerant discordia pectora pugnās,</div>
 <div class="line" data-linenumber="8">scēptriger Atrīdēs et bellō clārus Achillēs.</div>
-<div class="line" data-linenumber="9">quis deus hōs īrā trīstī contendere iussit?</div>
+
+<div class="line indent" data-linenumber="9">quis deus hōs īrā trīstī contendere iussit?</div>
 <div class="line" data-linenumber="10">Lātōnae et magnī prōlēs Iovis. ille Pelasgum</div>
 <div class="line" data-linenumber="11">īnfēstam rēgī pestem in praecordia mīsit</div>
 <div class="line" data-linenumber="12">implicuitque gravī Danaōrum corpora morbō.</div>
