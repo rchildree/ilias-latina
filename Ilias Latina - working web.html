@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 <style type="text/css">
 	html {
-		font:135%/175% "Tiempos Text", "Brill", "Noto Sans";
+		font:135%/175% "ZephText","Noto Sans";
 		background-color: #fafafa;
 	}
 	header {
@@ -31,36 +31,33 @@
 	    width: 50%;
 		border: 1px solid #a1a1a1;
 		box-shadow: 4px 2px 10px 2px #d8d8d8;
-		/* Let's see bout this */
-		animation: riseUp .75s ease-out;
 	}
 
-	@keyframes riseUp {
-		0% {
-			width: 90%;
-			}
-		85% {width: 48%}
-		100% {
-			width: 50%;
-			}
+	.line {
+		position:relative;
+		padding-left: 1rem;	
 	}
 
 	.line:hover {
 		background-color:#edf9fc;
 	}
-	.line:before {
+	.line::before {
+		position: absolute;
+		left: -3.5rem;
+		bottom: -1px;
 		content: attr(data-linenumber);
 		display: inline-block;
-		width: 60px;
-		padding-right: 20px;
+		width: 2rem;
 		font: .8rem/1.6rem "Arial";
 		font-feature-settings: "tnum";
 		text-align: right;
 		opacity: .25;
 	}
-	[data-bookbegin]:after {
+	[data-bookbegin]::after {
 		content: attr(data-bookbegin);
-		float: right;
+		/* float: right; */
+		position: absolute;
+		right: -2em;
 		padding: 0 25px;
 		color:#fff;
 		font-size: .75rem;
@@ -69,8 +66,10 @@
 		font-feature-settings: "pnum", "onum";
 		text-align: right;
 		background-color:#bf360c;
+		box-shadow: 0 2px 5px 0 #641c06;
+		z-index: 1;
 	}
-	.line:hover:before {
+	.line:hover::before {
 		font-weight: bold;
 		opacity: 1;
 	}
@@ -826,7 +825,7 @@
 <div class="line" data-linenumber="716">“hoc ūnum satis est; quodsī perstātis in īrā,</div>
 <div class="line" data-linenumber="717">quanta ex morte meā capiētis praemia laudis?</div>
 <div class="line" data-linenumber="718">at sī cūr veniam tacitīs exquīritis umbrīs:</div>
-<div class="line" data-linenumber="719">maxima Troia mihī currum prōmīsit Achillīs</div>
+<div class="line" data-linenumber="719">maxima Trōia mihī currum prōmīsit Achillīs</div>
 <div class="line" data-linenumber="720">sī vestrās cēpisset opēs. haec dōna secūtus</div>
 <div class="line" data-linenumber="721">in dubiōs cāsūs, cōram quod cernitis ipsī,</div>
 <div class="line" data-linenumber="722">īnfēlīx cecidī. nunc vōs per nūmina dīvum,</div>
@@ -834,7 +833,7 @@
 <div class="line" data-linenumber="724">nē rapere hanc animam crūdēlī caede velītis.</div>
 <div class="line" data-linenumber="725">haec prō concessā referētis dōna salūte:</div>
 <div class="line" data-linenumber="726">cōnsilium Priamī rēgis remque ōrdine gentis</div>
-<div class="line" data-linenumber="727">expediam Phrygiae.” postquam quid Troia parāret</div>
+<div class="line" data-linenumber="727">expediam Phrygiae.” postquam quid Trōia parāret</div>
 <div class="line" data-linenumber="728">cognōvēre virī, faucēs mucrōne reclūsō</div>
 <div class="line" data-linenumber="729">dētrūdunt iuvenis. post haec tentōria Rhēsī</div>
 <div class="line" data-linenumber="730">intrant atque ipsum somnō vīnōque sepultum</div>
@@ -1139,7 +1138,7 @@
 <div class="line" data-linenumber="1014">in sua castra redit turbīs comitātus Achillēs.</div>
 
 <div class="line" data-linenumber="1015" data-bookbegin="Iliad 24">flent miserī āmissum Phrygēs Hectora tōtaque maestō</div>
-<div class="line" data-linenumber="1016">Troia sonat plānctū; fundit miseranda querēlās</div>
+<div class="line" data-linenumber="1016">Trōia sonat plānctū; fundit miseranda querēlās</div>
 <div class="line" data-linenumber="1017">īnfēlīx Hecubē saevīsque arat unguibus ōra</div>
 <div class="line" data-linenumber="1018">Andromachēque suās scindit dē pectore vestēs,</div>
 <div class="line" data-linenumber="1019">heu tantō spoliāta virō. ruit omnis in ūnō</div>
@@ -1161,7 +1160,7 @@
 <div class="line" data-linenumber="1035">in senis extrēmīs tua dextera saeviat annīs.</div>
 <div class="line" data-linenumber="1036">saltem saeva pater comitābor fūnera nātī!</div>
 <div class="line" data-linenumber="1037">nec vītam mihi nec magnōs concēdere honōrēs,</div>
-<div class="line" data-linenumber="1038">sed fūnus crūdēle meum. miserēre parentīs</div>
+<div class="line" data-linenumber="1038">sed fūnus crūdēle meum. miserēre parentis</div>
 <div class="line" data-linenumber="1039">et pater esse meō mītis dē corpore disce.</div>
 <div class="line" data-linenumber="1040">Hectoris interitū vīcistī Dardana rēgna,</div>
 <div class="line" data-linenumber="1041">vīcistī Priamum. sortis reminīscere victor</div>
@@ -1179,7 +1178,7 @@
 <div class="line" data-linenumber="1053">abrumpunt crīnēs laniātaque pectora plangunt;</div>
 <div class="line" data-linenumber="1054">illō namque rogō nātōrum fūnera cernunt.</div>
 <div class="line" data-linenumber="1055">tollitur et iuvenum magnō cum murmure clāmor</div>
-<div class="line" data-linenumber="1056">flēbilis. ārdēbat flammā namque Īlion illa.</div>
+<div class="line" data-linenumber="1056">flēbilis. ārdēbat flammā namque Īlion illā.</div>
 <div class="line" data-linenumber="1057">inter quōs gemitus laniātō pectore coniūnx</div>
 <div class="line" data-linenumber="1058">prōvolat Andromachē mediōsque immittere in ignēs</div>
 <div class="line" data-linenumber="1059">sē cupit Astyanacta tenēns, quam iussa suārum</div>
