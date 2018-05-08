@@ -1,4 +1,4 @@
-ENTRY	ENTRYPROPER SHORTDEF	LONGERDEF	FIRSTOCCURRENCE	NUMOCCURRENCES	POS	LOG	URL	SOMETHING
+ENTRY	ENTRYPROPER	SHORTDEF	LONGERDEF	FIRSTOCCURRENCE	NUMOCCURR	POS	LOG	URL	SOMETHING
 "abdo abdere abdidi abditum"	"abdō abdere abdidī abditum"	"to withdraw; conceal"	"to put away, remove, set aside"	"708"	"1"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#abdo"	"1771"
 "abrumpo abrumpere abrupi abruptum"	"abrumpō abrumpere abrūpī abruptum"	"to break off, sever"	"to break off, sever"	"1053"	"1"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#abrumpo"	"2603"
 "absisto –ere –abstiti"	"absistō –ere –abstitī"	"to stand off or away from"	"to stand off or away from, followed by the abl., alone or with prep.; withdraw from; fly, dart from; (with infin.), desist, cease; (alone), stop, cease"	"627"	"1"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#absisto"	"3297"
@@ -817,8 +817,7 @@ ENTRY	ENTRYPROPER SHORTDEF	LONGERDEF	FIRSTOCCURRENCE	NUMOCCURRENCES	POS	LOG	URL	
 "stimulo stimulare stimulavi stimulatus"	"stimulō stimulāre stimulāvī stimulātus"	"to spur; to rouse"	"to spur; to rouse, urge; infuriate, incite (> stimulus)"	" 397"	"1"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#stimulo"	"4475"
 "stomachus –i m."	"stomachus –ī m."	"the gullet; chest"	"the gullet; chest, stomach; bad temper"	" 513"	"1"	"Noun"	"Logeion"	"http://logeion.uchicago.edu/index.html#stomachus"	"3297"
 "strideo stridere and strido stridere stridi"	"strīdeō strīdēre and strīdō strīdere strīdī"	"to produce a grating or shrill sound; to creak"	"to produce a grating or shrill sound; to creak; gurgle; rustle; whiz, roar; hiss; twang"	"296"	"2"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#strideo"	"2288"
-"stringo stringere strinxi strictum"	"stringō stringere strīnxī strictum"	"to draw tight, bind fast; draw (from a scabbard, etc.)"	"to draw tight; bind fast; strip (i.e. leaves from a tree); draw (from a scabbard, etc.)
-"	"413"	"9"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#stringo"	"1330"
+"stringo stringere strinxi strictum"	"stringō stringere strīnxī strictum"	"to draw tight, bind fast; draw (from a scabbard, etc.)"	"to draw tight; bind fast; strip (i.e. leaves from a tree); draw (from a scabbard, etc.)"	"413"	"9"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#stringo"	"1330"
 "struo struere struxi structus"	"struō struere strūxī strūctus"	"to construct"	"to build, construct"	" 647"	"1"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#struo"	"2249"
 "suadeo suadere suasi suasus"	"suādeō suādēre suāsī suāsus"	"to recommend"	"to urge, recommend; suggest; induce; propose, persuade, advise"	" 327"	"3"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#suadeo"	"1447"
 "subduco –ducere –duxi –ductum"	"subdūcō –dūcere –dūxī –ductum"	"to draw up, raise; remove, take away"	"to draw up, raise; remove, take away"	" 545"	"1"	"Verb"	"Logeion"	"http://logeion.uchicago.edu/index.html#subduco"	"1745"
