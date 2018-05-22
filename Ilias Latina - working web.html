@@ -15,7 +15,7 @@
 		left:0;
 		width:100vw;
 		padding: 20px 0 15px 0;
-		background-color:#bf360c;/*#dd2c00;*/
+		background-color:#bf360c;
 		color:#fff;
 		box-shadow: -2px 4px 4px 0px #870000;
 		z-index: 1000;
@@ -32,6 +32,7 @@
 	    width: 30rem;
 		border: 1px solid #a1a1a1;
 		box-shadow: 4px 2px 10px 2px #d8d8d8;
+		/*font-feature-settings: "ss05", "ss06";*/
 	}
 
 	.line {
@@ -46,11 +47,12 @@
 	.line::before {
 		position: absolute;
 		left: -3.5rem;
-		bottom: -1px;
+		bottom: 1px;
 		content: attr(data-linenumber);
 		display: inline-block;
 		width: 2rem;
-		font: .7rem/1.6rem "Attribute Text";
+		font-size: .7rem;
+		line-height: 1.6rem;
 		font-feature-settings: "lnum", "tnum";
 		text-align: right;
 		opacity: .25;
@@ -58,7 +60,6 @@
 	}
 	[data-bookbegin]::after {
 		content: attr(data-bookbegin);
-		/* float: right; */
 		position: absolute;
 		right: -2em;
 		padding: 0 25px;
@@ -75,6 +76,7 @@
 	}
 	.line:hover::before {
 		font-weight: bold;
+		color: #870000;
 		opacity: 1;
 	}
 	.indent {
@@ -305,8 +307,8 @@
 <div class="line" data-linenumber="194">altaque ter dēnīs sulcārunt aequora prōrīs.</div>
 <div class="line" data-linenumber="†195">et tribus assūmptīs ratibus secat aequora Teucer</div>
 <div class="line" data-linenumber="196">Tlēpolemusque novem Rhodius, quōs vīribus ācer</div>
-<div class="line" data-linenumber="197">Eumēlus sequitur, minus ūnā nāve profectus</div>
-<div class="line delenda" data-linenumber="198">[quam dūxit Telamōne satus Salamīnius Aiāx.]</div>
+<div class="line" data-linenumber="197">Eumēlus sequitur, minus ūnā nāve profectus.</div>
+<div class="line delenda" data-linenumber="198">[quam dūxit Telamōne satus Salamīnius Aiāx]</div>
 <div class="line" data-linenumber="199">at Prothous Magnēs Tenthrēdone nātus et ūnā</div>
 <div class="line" data-linenumber="200">Euboeae magnīs Elephēnōr fīnibus ortus</div>
 <div class="line" data-linenumber="201">Dūlichiusque Megēs, animīsque īnsignis et armīs,</div>
@@ -978,7 +980,7 @@
 <div class="line" data-linenumber="841">tunc ut Pēlīdae aurēs dīverberat horror,</div>
 <div class="line" data-linenumber="842">palluit īnfēlīx iuvenis, calor ossa relīquit;</div>
 <div class="line delenda" data-linenumber="843">[membra simul lacrimāns māternō innectit amictū,</div>
-<div class="line delenda" data-linenumber="844">dēflēns Aeacidēs trīstī dē caede sodālis;]</div>
+<div class="line delenda" data-linenumber="844">dēflēns Aeacidēs trīstī dē caede sodālis]</div>
 <div class="line" data-linenumber="845">unguibus ōra secat cōmptōsque in pulvere crīnēs</div>
 <div class="line" data-linenumber="846">dēfōrmat, scindit firmō dē pectore vestēs</div>
 <div class="line" data-linenumber="847">et super exstīnctī prōstrātus membra sodālis</div>
@@ -1082,7 +1084,7 @@
 <div class="line" data-linenumber="939">in somnīs velutī, cum pectora terruit īra,</div>
 <div class="line" data-linenumber="940">hic cursū super īnsequitur, fugere ille vidētur,</div>
 <div class="line" data-linenumber="941">festīnantque ambō, gressum labor ipse morātur,</div>
-<div class="line delenda" data-linenumber="942">[alternīs poterant īnsistere coepta perīclīs,]</div>
+<div class="line delenda" data-linenumber="942">[alternīs poterant īnsistere coepta perīclīs]</div>
 <div class="line" data-linenumber="943">nec requiēs aderat: timor undique concitat īrās.</div>
 
 <div class="line indent" data-linenumber="944" data-bookbegin="Iliad 22">spectant dē mūrīs miserī sua fāta parentēs</div>
