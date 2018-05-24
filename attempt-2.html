@@ -1,9 +1,9 @@
-﻿<html>
+<html>
 <head>
 <title>Ilias Latina</title>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
 <style type="text/css">
-	* {box-sizing: border-box;}
+	* {box-sizing: border-box;margin: 0; padding: 0;}
 
 	html {
 		font:135%/165% "Chaparral Pro Latin","Minoan Pro","Source Sans Pro","Fira Sans";
@@ -13,17 +13,30 @@
 		position: fixed;
 		top:0;
 		left:0;
-		width:100vw;
-		padding: 10px 0 6px;
-		background-color:#bf360c;
+        height: 75px;
+		width:100%;
+		padding: 0px 0 0px;
+		background-color:#000;
 		color:#fff;
-		box-shadow: -2px 2px 2px 0px #870000;
+		box-shadow: -2px 2px 4px 0px #000;
 		z-index: 1000;
+		position: -webkit-sticky;
+        position: sticky;
+        overflow: hidden;
 	}
-	header>div {
-		margin-right:15px;
+	#sticky {
+		/* margin-right:15px; */
+        padding:20px 0;
 		text-align: center;
 	}
+
+    div.img {
+            background-image: url("ilias-latina.jpg");
+            background-position: bottom;
+            background-size: cover;
+            height: calc(100vh - 75px);
+    }
+
 	content {
 	    display: block;
 		background-color: #fff;
@@ -69,14 +82,14 @@
 		font-weight: normal;
 		font-feature-settings: "pnum", "onum";
 		text-align: right;
-		background-color:#bf360c;
-		box-shadow: 0 2px 5px 0 #641c06;
+		background-color:#000;
+		box-shadow: 0 2px 5px 0 #000;
 		z-index: 1;
 		text-indent: 0;
 	}
 	.line:hover::before {
 		font-weight: bold;
-		color: #870000;
+		color: #634b2f;
 		opacity: 1;
 	}
 	.indent {
@@ -100,10 +113,10 @@
 </head>
 
 <body>
-
-<header>
-<div>Publius Baebius Italicus [“Homerus”], <i>Ilias Latina</i></div>
-</header>
+    <div class="img"></div>
+    <header>
+        <p id="sticky">Publius Baebius Italicus [“Homerus”], <i>Ilias Latina</i></p>
+	</header>
 
 <content>
 <h1>Ilias Latina</h1>
