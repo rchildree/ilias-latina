@@ -1,7 +1,0 @@
-Plans for Internet edition.txt
-===========================
-
-Line numbers at left, every line
-Highlight on line like table
-Vocab on mouseover? Onclick? 
-How to arrange comments?
