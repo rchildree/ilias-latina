@@ -8320,7 +8320,7 @@
 		<words index="6280" form="flent" lemma="fleo" postag="v3ppia---" />
 		<words index="6281" form="miserī" lemma="miser" postag="a-p---mn-" />
 		<words index="6282" form="āmissum" lemma="amitto" postag="v-srppma-" />
-		<words index="6283" form="Phryges" lemma=Phryx" postag="n-p---mn-" />
+		<words index="6283" form="Phryges" lemma="Phryx" postag="n-p---mn-" />
 		<words index="6284" form="Hectora" lemma="Hector" postag="n-s---ma-" />
 		<words index="6285" form="tōtaque" lemma="totus1" postag="a-s---fn-" />
 		<words index="6286" form="maestō" lemma="maestus" postag="a-s---mb-" />
