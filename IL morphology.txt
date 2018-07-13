@@ -14,7 +14,7 @@
 	<words index="0009" form="miserīs" lemma="miser" dict="miser misera miserum" shortdef="wretched, pitiable" longdef="wretched, pitiable, miserable" postag="a-p---md-" />
 	<words index="0010" form="iniēcit" lemma="inicio" dict="iniciō –ere –iēcī –iectum" shortdef="to bring into, instill" longdef="to bring into, instill" postag="v3sria---" />
 	<words index="0011" form="fūnera" lemma="funus" dict="fūnus fūneris n." shortdef="funeral; death; dead body" longdef="burial, funeral; funeral rites; ruin; corpse; death" postag="n-p---na-" />
-	<words index="0012" form="Graiīs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---md-" />
+	<words index="0012" form="Grāiīs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---md-" />
 </p>
 <p n="3" id="urn:cts:latinLit:phi0890.phi001.chilberg:3">
 	<words index="0013" form="atque" lemma="atque" dict="atque" shortdef="and, also" longdef="and in addition, or and besides; and, as well, and indeed; freq.; even; (in comparisons) as; than; repeated, atque — atque, both — and" postag="c--------" />
@@ -376,7 +376,7 @@
 	<words index="0283" form="vulgus" lemma="vulgus" dict="vulgus vulgī n." shortdef="common people" longdef="common people/general public/multitude/common herd/rabble/crowd/mob; flock" postag="n-s---nn-" />
 	<words index="0284" form="ruit" lemma="ruo" dict="ruō ruere ruī rūtum" shortdef="to rush" longdef="to rush" postag="v3spia---" />
 	<words index="0285" form="undique" lemma="undique" dict="undique" shortdef="from all sides" longdef="from every side/direction/place/part/source; on all/both sides/surfaces; everywhere; completely; allover; from every point of view, in all respects" postag="d--------" />
-	<words index="0286" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="0286" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 </p>
 <p n="47" id="urn:cts:latinLit:phi0890.phi001.chilberg:47">
 	<words index="0287" form="vixque" lemma="vix" dict="vix" shortdef="scarcely" longdef="hardly, scarcely" postag="d--------" />
@@ -1117,7 +1117,7 @@
 	<words index="0846" form="aequās" lemma="aequus" dict="aequus –a –um" shortdef="equal" longdef="level, even; equitable, just; calm, tranquil" postag="a-p---fa-" /><notwords form="." />
 </p>
 <p n="136" id="urn:cts:latinLit:phi0890.phi001.chilberg:136">
-	<words index="0847" form="hic" lemma="hic" dict="hic haec hoc" shortdef="this, these" longdef="this; these" postag="p-s---mn-" />
+	<words index="0847" form="hīc" lemma="hic" dict="hic haec hoc" shortdef="this, these" longdef="this; these" postag="p-s---mn-" />
 	<words index="0848" form="tunc" lemma="tunc" dict="tūne spectābās?" shortdef="Were you watching?" longdef="Were you watching?" postag="d--------" />
 	<words index="0849" form="Thersītēs" lemma="Thersites" dict="Thersītēs –ae " shortdef="Thersites (name)" longdef="Thersites, a Greek serving at Troy, A Grecian soldier at Troy, famed for his ugliness and scurrility " postag="n-s---mn-" /><notwords form="," />
 	<words index="0850" form="quō" lemma="qui2" dict="quī quae quod" shortdef="who, which" longdef="some, any; what…, which...; who, which, that" postag="p-s---mb-" />
@@ -1564,7 +1564,7 @@
 <p n="191" id="urn:cts:latinLit:phi0890.phi001.chilberg:191">
 	<words index="1182" form="quōs" lemma="qui1" dict="quī quae quod" shortdef="who, which" longdef="some, any; what…, which...; who, which, that" postag="n-p---ma-" />
 	<words index="1183" form="iuxtā" lemma="iuxta" dict="iūxtā" shortdef="near, close" longdef="near, close, near by; at the same time; near to; according to" postag="d--------" />
-	<words index="1184" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="1184" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="1185" form="mūrus" lemma="murus" dict="mūrus mūrī m." shortdef="wall" longdef="wall" postag="n-s---mn-" />
 	<words index="1186" form="comitātur" lemma="comitor" dict="comitor comitārī comitātus sum" shortdef="to accompany" longdef="to accompany" postag="v3spip---" />
 	<words index="1187" form="Achillēs" lemma="Achilles" dict="Achillēs –is m." shortdef="Achilles (name)" longdef="Achilles (name)" postag="n-s---mn-" />
@@ -1797,7 +1797,7 @@
 <p n="220" id="urn:cts:latinLit:phi0890.phi001.chilberg:220">
 	<words index="1357" form="hīs" lemma="hic" dict="hic haec hoc" shortdef="this, these" longdef="this; these" postag="p-p---mb-" />
 	<words index="1358" form="ducibus" lemma="dux" dict="dux ducis m. or f." shortdef="leader" longdef="leader" postag="n-p---mb-" />
-	<words index="1359" form="Graiae" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="a-p---fn-" />
+	<words index="1359" form="Grāiae" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="a-p---fn-" />
 	<words index="1360" form="Trōiāna" lemma="Troianus" dict="Trōiānus –a –um" shortdef="Trojan" longdef="Trojan; subst., Troianus, i, m., a Trojan; pl., Troiani, orum, m., the Trojans" postag="a-p---na-" />
 	<words index="1361" form="ad" lemma="ad" dict="ad illam rūsticam" shortdef="to/toward the country house and farm" longdef="to/toward the country house and farm" postag="r--------" />
 	<words index="1362" form="lītora" lemma="litus3" dict="lītus lītoris n." shortdef="sea–shore" longdef="sea–shore" postag="n-p---na-" />
@@ -2275,7 +2275,7 @@
 	<words index="1720" form="Hector" lemma="Hector" dict="Hector –oris m." shortdef="Hector" longdef="Hector" postag="n-s---mn-" /><notwords form=";" />
 	<words index="1721" form="placuit" lemma="placeo" dict="placeō placēre placuī placitum" shortdef="to please" longdef="to be pleasing, please (+ dat.)" postag="v3sria---" />
 	<words index="1722" form="sententia" lemma="sententia" dict="sententia sententiae f." shortdef="opinion" longdef="thought, feeling; opinion; judicial opinion, verdict" postag="n-s---fn-" />
-	<words index="1723" form="Graiīs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---md-" /><notwords form="." />
+	<words index="1723" form="Grāiīs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---md-" /><notwords form="." />
 </p>
 <p n="278" id="urn:cts:latinLit:phi0890.phi001.chilberg:278">
 	<words index="1724" form="prōtinus" lemma="protinus" dict="prōtinus" shortdef="at once" longdef="immediately, at once, forthwith" postag="d--------" />
@@ -2503,7 +2503,7 @@
 	<words index="1891" form="mucrō" lemma="mucro" dict="mūcrō –ōnis m." shortdef="sharp point or edge" longdef="a sharp point or edge, esp. of a weapon; point of a spear; a sword, blade" postag="n-s---mn-" /><notwords form=";" />
 	<words index="1892" form="gemuērunt" lemma="gemo" dict="gemō gemere gemuī" shortdef="to groan, sigh" longdef="to groan, sigh" postag="v3pria---" />
 	<words index="1893" form="agmina" lemma="agmen" dict="āgmen āgminis n." shortdef="line of march" longdef="line (of march), column; army; multitude, throng" postag="n-p---nn-" />
-	<words index="1894" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" /><notwords form="." />
+	<words index="1894" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" /><notwords form="." />
 </p>
 <p n="306" id="urn:cts:latinLit:phi0890.phi001.chilberg:306">
 	<words index="1895" form="tum" lemma="tum" dict="tum or tunc" shortdef="then, at that time" longdef="then, at that time; then, thereupon, afterwards (> tum–ce)" postag="d--------" />
@@ -2970,7 +2970,7 @@
 	<words index="2242" form="inde" lemma="inde" dict="inde" shortdef="from there, from then" longdef="from that place, from there, thence; from that time, thereupon" postag="d--------" />
 	<words index="2243" form="manū" lemma="manus1" dict="manus manūs f." shortdef="hand; band of men" longdef="hand; band, troop; in manibus: in hands, i.e. published" postag="n-s---fb-" />
 	<words index="2244" form="fortī" lemma="fortis" dict="fortis forte" shortdef="brave; strong" longdef="brave; strong" postag="a-s---fb-" />
-	<words index="2245" form="Graiōrum" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="2245" form="Grāiōrum" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="2246" form="terga" lemma="tergum" dict="tergum tergī n. and tergus –oris n." shortdef="the back of men or animals" longdef="the back of men or animals; the stern of a ship; skin, hide; gauntlet, hide; form, frame, body; carcass, body; length, long body; a layer, plate; pl., terga, orum, members, frame" postag="n-p---na-" />
 	<words index="2247" form="prementem" lemma="premo" dict="premō premere pressī pressus" shortdef="to press" longdef="to press (hard); overpower; check; (of males) have sex with" postag="v-spp-ma-" />
 </p>
@@ -3964,7 +3964,7 @@
 </p>
 <p n="484" id="urn:cts:latinLit:phi0890.phi001.chilberg:484">
 	<words index="2994" form="dēnsaque" lemma="densus" dict="dēnsus –a –um" shortdef="thick, dense" longdef="thick, dense" postag="a-p---na-" />
-	<words index="2995" form="Graiōrum" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="2995" form="Grāiōrum" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="2996" form="premit" lemma="premo" dict="premō premere pressī pressus" shortdef="to press" longdef="to press (hard); overpower; check; (of males) have sex with" postag="v3spia---" />
 	<words index="2997" form="agmina" lemma="agmen" dict="āgmen āgminis n." shortdef="line of march" longdef="line (of march), column; army; multitude, throng" postag="n-p---na-" />
 	<words index="2998" form="nūdaque" lemma="nudus" dict="nūdus –a –um" shortdef="nude, bare" longdef="nude; bare, stripped" postag="a-p---na-" />
@@ -3994,7 +3994,7 @@
 	<words index="3016" form="atque" lemma="atque" dict="atque" shortdef="and, also" longdef="and in addition, or and besides; and, as well, and indeed; freq.; even; (in comparisons) as; than; repeated, atque — atque, both — and" postag="c--------" />
 	<words index="3017" form="agmina" lemma="agmen" dict="āgmen āgminis n." shortdef="line of march" longdef="line (of march), column; army; multitude, throng" postag="n-p---na-" />
 	<words index="3018" form="vertere" lemma="verto" dict="vertō vertere vertī versus" shortdef="to turn" longdef="to turn, turn around; change, alter; overthrow, destroy" postag="v--pna---" />
-	<words index="3019" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" /><notwords form="." />
+	<words index="3019" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" /><notwords form="." />
 </p>
 <p n="488" id="urn:cts:latinLit:phi0890.phi001.chilberg:488">
 	<words index="3020" form="ut" lemma="ut" dict="ut or utī" shortdef="so that; as, when; that; how? In what manner?" longdef="in order that (introduces Purpose clause); as; when; ; introduces Indirect Command) that; (introduces negative Fear clause) that…not" postag="d--------" />
@@ -4045,7 +4045,7 @@
 </p>
 <p n="493" id="urn:cts:latinLit:phi0890.phi001.chilberg:493">
 	<words index="3057" form="dēficiunt" lemma="deficio" dict="dēficiō dēficere dēfēcī dēfectus" shortdef="to fail; revolt from" longdef="to fail, disappoint, let down; leave without a sufficiency; cease to be available" postag="v3ppia---" />
-	<words index="3058" form="Graiōrum" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="3058" form="Grāiōrum" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="3059" form="aciēs" lemma="acies" dict="aciēs aciēī f." shortdef="edge; line of battle" longdef="sharp edge; keennes; battle line" postag="n-p---fn-" /><notwords form="," />
 	<words index="3060" form="Phryges" lemma="Phryx" dict="Phryx –ygis" shortdef="Phryx" longdef="Phrygian; of the inhabitants of Phrygia, which originally included the Troad; hence, also, Trojans; sing., Phryx, ygis, m., a Phrygian or Trojan" postag="n-p---mn-" />
 	<words index="3061" form="ācrius" lemma="acer" dict="acer aceris n." shortdef="maple tree" longdef="maple tree" postag="d-------c" />
@@ -4737,7 +4737,7 @@
 	<words index="3579" form="Hector" lemma="Hector" dict="Hector –oris m." shortdef="Hector" longdef="Hector" postag="n-s---mn-" />
 </p>
 <p n="578" id="urn:cts:latinLit:phi0890.phi001.chilberg:578">
-	<words index="3580" form="Graiōrumque" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="3580" form="Grāiōrumque" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="3581" form="ducēs" lemma="dux" dict="dux ducis m. or f." shortdef="leader" longdef="leader" postag="n-p---ma-" />
 	<words index="3582" form="invictīs" lemma="invictus" dict="invictus –a –um" shortdef="unconquered" longdef="unconquered; invincible" postag="a-p---nb-" />
 	<words index="3583" form="prōvocat" lemma="provoco" dict="prōvocō prōvocāre –āvī –ātus" shortdef="to summon, challenge" longdef="to summon, challenge" postag="v3spia---" />
@@ -4762,7 +4762,7 @@
 </p>
 <p n="581" id="urn:cts:latinLit:phi0890.phi001.chilberg:581">
 	<words index="3598" form="Mērionēs" lemma="Meriones" dict="Mērionēs –ae m." shortdef="Meriones (name)" longdef="Meriones (name)" postag="n-s---mn-" />
-	<words index="3599" form="Graiumque" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="3599" form="Grāiumque" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="3600" form="simul" lemma="simul" dict="simul" shortdef="at the same time" longdef="at same time; likewise; also; simultaneously; at once;  w. abl. (cum being omitted); as soon as, when" postag="d--------" />
 	<words index="3601" form="dux" lemma="dux" dict="dux ducis m. or f." shortdef="leader" longdef="leader" postag="n-s---mn-" />
 	<words index="3602" form="ācer" lemma="acer" dict="acer aceris n." shortdef="maple tree" longdef="maple tree" postag="a-s---mn-" />
@@ -5029,7 +5029,7 @@
 	<words index="3797" form="quem" lemma="quis2" dict="quis quid" shortdef="who, what" longdef="who, what" postag="p-s---ma-" />
 	<words index="3798" form="levat" lemma="levo1" dict="levō levāre levāvī levātus" shortdef="to raise; make light" longdef="to lift/raise/hold up; support; erect, set up; lift off, remove (load); comfort; undo, take off; release, rid; free from (worry/expense); refresh/restore; lighten, lessen, relieve; reduce in force/potency; bring down (cost/prices); alleviate" postag="v3spia---" />
 	<words index="3799" form="exceptum" lemma="excipio" dict="excipiō excipere excēpī exceptus" shortdef="to take out" longdef="to take out; remove; follow; receive; ward off, relieve" postag="v-srppma-" />
-	<words index="3800" form="Graiīs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---md-" />
+	<words index="3800" form="Grāiīs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---md-" />
 	<words index="3801" form="inimīcus" lemma="inimicus" dict="inimīcus –a –um" shortdef="unfriendly, hostile" longdef="unfriendly, hostile (+ dat.)" postag="a-s---mn-" />
 	<words index="3802" form="Apollō" lemma="Apollō" dict="Apollō –inis m." shortdef="Apollo" longdef="Apollo" postag="n-s---mn-" />
 </p>
@@ -5173,7 +5173,7 @@
 	<words index="3907" form="post" lemma="post" dict="post" shortdef="after (adv. and prep. +acc.)" longdef="after(ward), later; behind (+ acc.)" postag="r--------" />
 	<words index="3908" form="haec" lemma="hic" dict="hic haec hoc" shortdef="this, these" longdef="this; these" postag="p-p---na-" />
 	<words index="3909" form="extemplō" lemma="extemplo" dict="extemplō" shortdef="immediately" longdef="immediately, forthwith" postag="d--------" />
-	<words index="3910" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="3910" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="3911" form="Trōumque" lemma="Tros" dict="Trōs –ōis m." shortdef="Tros; one of the kings of Troy" longdef="Tros, one of the kings of Troy" postag="n-p---mg-" />
 	<words index="3912" form="catervae" lemma="caterva" dict="caterva –ae f." shortdef="crime, sin" longdef="a crowd, throng" postag="n-p---fn-" />
 </p>
@@ -5391,7 +5391,7 @@
 </p>
 <p n="658" id="urn:cts:latinLit:phi0890.phi001.chilberg:658">
 	<words index="4073" form="et" lemma="et" dict="et" shortdef="and" longdef="and" postag="c--------" />
-	<words index="4074" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="4074" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 	<words index="4075" form="clādēs" lemma="clades" dict="clādēs clādis f." shortdef="destruction" longdef="disaster, destruction" postag="n-s---fn-" />
 	<words index="4076" form="gravibus" lemma="gravis" dict="gravis grave" shortdef="heavy" longdef="heavy, deep; important, serious; severe" postag="a-p---nb-" />
 	<words index="4077" form="praeponderat" lemma="praepondero" dict="prae-ponderō –āre" shortdef="to be heavier" longdef="to lean, incline" postag="v3spia---" />
@@ -5584,7 +5584,7 @@
 	<words index="4216" form="obsīdunt" lemma="obsido" dict="obsīdō –ere" shortdef="to set before" longdef="to set before, watch; block up, beset; invade, occupy" postag="v3ppia---" />
 	<words index="4217" form="inclūsōs" lemma="includo" dict="inclūdō inclūdere inclūsī inclūsus" shortdef="to enclose" longdef="to shut up/in, imprison, enclose; include" postag="v-prppma-" />
 	<words index="4218" form="aggere" lemma="agger" dict="agger aggeris m." shortdef="mound, rampart" longdef="mound, rampart" postag="n-s---mb-" />
-	<words index="4219" form="Graiōs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---ma-" />
+	<words index="4219" form="Grāiōs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---ma-" />
 </p>
 <p n="683" id="urn:cts:latinLit:phi0890.phi001.chilberg:683">
 	<words index="4220" form="excubitūque" lemma="excubitus" dict="excŭbĭtus –ūs m. " shortdef="a watching, keeping watch" longdef="a watching, keeping watch" postag="n-s---mb-" />
@@ -5999,7 +5999,7 @@
 	<words index="4529" form="perāctā" lemma="perago" dict="peragō peragere perēgī perāctum" shortdef="to finish" longdef="to finish, end" postag="v-srppfb-" />
 </p>
 <p n="733" id="urn:cts:latinLit:phi0890.phi001.chilberg:733">
-	<words index="4530" form="praeda" lemma="praeda" dict="praeda praedae f." shortdef="booty, prey" longdef="booty, loot, spoils, plunder, prey" postag="n-s---fb-" />
+	<words index="4530" form="praedā" lemma="praeda" dict="praeda praedae f." shortdef="booty, prey" longdef="booty, loot, spoils, plunder, prey" postag="n-s---fb-" />
 	<words index="4531" form="umerōs" lemma="umerus" dict="umerus umerī m." shortdef="shoulder" longdef="shoulder" postag="n-p---ma-" />
 	<words index="4532" form="onerant" lemma="onero" dict="onerō onerāre onerāvī onerātus" shortdef="to load, burden" longdef="to load, burden; weigh down; shower with accusations" postag="v3ppia---" /><notwords form="," />
 	<words index="4533" form="multō" lemma="multus" dict="multus –a –um" shortdef="much, many" longdef="much, many" postag="a-s---mb-" />
@@ -6187,7 +6187,7 @@
 	<words index="4671" form="percussōs" lemma="percutio" dict="percutiō percutere percussī percussum" shortdef="to strike, kill" longdef="to hit, strike; kill, put to death" postag="v-prppma-" />
 	<words index="4672" form="agit" lemma="ago" dict="agō agere ēgī āctus" shortdef="to drive, do, act, concern oneself with" longdef="to drive; do; spend, conduct; concern (oneself with a thing); make a proposal (about)" postag="v3spia---" />
 	<words index="4673" form="undique" lemma="undique" dict="undique" shortdef="from all sides" longdef="from every side/direction/place/part/source; on all/both sides/surfaces; everywhere; completely; allover; from every point of view, in all respects" postag="d--------" />
-	<words index="4674" form="Graiōs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---ma-" /><notwords form="." />
+	<words index="4674" form="Grāiōs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---ma-" /><notwords form="." />
 </p>
 <p n="756" id="urn:cts:latinLit:phi0890.phi001.chilberg:756">
 	<words index="4675" form="nec" lemma="nec" dict="nec" shortdef="nor; and not" longdef="nor; and not, not, neither, not even" postag="d--------" />
@@ -6247,7 +6247,7 @@
 <p n="763" id="urn:cts:latinLit:phi0890.phi001.chilberg:763">
 	<words index="4716" form="restantēs" lemma="resto" dict="restō restāre restitī" shortdef="to resist" longdef="to remain, resist" postag="v-ppp-ma-" />
 	<words index="4717" form="sternunt" lemma="sterno" dict="sternō sternere strāvī strātus" shortdef="to spread" longdef="to spread, strew, scatter; lay out" postag="v3ppia---" />
-	<words index="4718" form="Graiōs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---ma-" />
+	<words index="4718" form="Grāiōs" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---ma-" />
 	<words index="4719" form="vāllōque" lemma="vallum" dict="vallum vallī n." shortdef="fortification" longdef="fortification" postag="n-s---nb-" />
 	<words index="4720" form="catervās" lemma="caterva" dict="caterva –ae f." shortdef="crime, sin" longdef="a crowd, throng" postag="n-p---fa-" />
 </p>
@@ -7065,7 +7065,7 @@
 	<words index="5331" form="sīderaque" lemma="sidus" dict="sīdus sīderis n." shortdef="star" longdef="star, constellation" postag="n-p---na-" />
 	<words index="5332" form="et" lemma="et" dict="et" shortdef="and" longdef="and" postag="c--------" />
 	<words index="5333" form="liquidīs" lemma="liquidus" dict="liquidus –a –um" shortdef="clear, liquid, melodious" longdef="clear, liquid, melodious" postag="a-p---fb-" />
-	<words index="5334" form="redimitās" lemma="redimio" dict="redimiō –imīre –imiī –imītum" shortdef="to encircle (with a garland)" longdef="to encircle (with a garland)" postag="v-prppfa-" />
+	<words index="5334" form="redimītās" lemma="redimio" dict="redimiō –imīre –imiī –imītum" shortdef="to encircle (with a garland)" longdef="to encircle (with a garland)" postag="v-prppfa-" />
 	<words index="5335" form="undique" lemma="undique" dict="undique" shortdef="from all sides" longdef="from every side/direction/place/part/source; on all/both sides/surfaces; everywhere; completely; allover; from every point of view, in all respects" postag="d--------" />
 	<words index="5336" form="nymphīs" lemma="nympha" dict="nympha nymphae f." shortdef="bride; nymph" longdef="a bride, mistress, young woman; nymph, demi-goddess inhabiting water or other natural parts" postag="n-p---fb-" />
 </p>
@@ -8291,7 +8291,7 @@
 <p n="1012" id="urn:cts:latinLit:phi0890.phi001.chilberg:1012">
 	<words index="6258" form="et" lemma="et" dict="et" shortdef="and" longdef="and" postag="c--------" />
 	<words index="6259" form="discō" lemma="discus1" dict="discus –ī m." shortdef="discus" longdef="discus" postag="n-s---mb-" />
-	<words index="6260" form="fortis" lemma="fortis" dict="fortis forte" shortdef="brave; strong" longdef="brave; strong" postag="a-s---mn-" />
+	<words index="6260" form="fortī" lemma="fortis" dict="fortis forte" shortdef="brave; strong" longdef="brave; strong" postag="a-s---mb-" />
 	<words index="6261" form="Polypoetēs" lemma="Polypoetes" dict="Polypoetes –ae" shortdef="Polypoetes (name)" longdef="Polypoetes, leader of the Gyrtonians against Troy" postag="n-s---mn-" />
 	<words index="6262" form="dēpulit" lemma="depello" dict="dēpellō dēpellere dēpulī dēpulsus" shortdef="to drive off, expel" longdef="to drive off, expel" postag="v3sria---" />
 	<words index="6263" form="omnēs" lemma="omnis" dict="omnis omne" shortdef="every; all" longdef="every; all" postag="n-p---ma-" />
@@ -8426,7 +8426,7 @@
 	<words index="6360" form="haec" lemma="hic" dict="hic haec hoc" shortdef="this, these" longdef="this; these" postag="p-p---na-" />
 	<words index="6361" form="aït" lemma="aio" dict="āiō" shortdef="to say, affirm, say yes" longdef="to say (defective), assert; say yes/so, affirm, assent; prescribe/lay down (law)" postag="v3spia---" /><notwords form=":" /><notwords form="“" />
 	<words index="6362" form="ō" lemma="o" dict="ō" shortdef="O" longdef="O" postag="e--------" />
-	<words index="6363" form="Graiae" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="a-s---fg-" />
+	<words index="6363" form="Grāiae" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="a-s---fg-" />
 	<words index="6364" form="gentis" lemma="gens" dict="gēns gentis f." shortdef="family, clan" longdef="nation, people; clan, family" postag="n-s---fg-" />
 	<words index="6365" form="fortissime" lemma="fortis" dict="fortis forte" shortdef="brave; strong" longdef="brave; strong" postag="a-s---mvs" />
 	<words index="6366" form="Achillēs" lemma="Achilles" dict="Achillēs –is m." shortdef="Achilles (name)" longdef="Achilles (name)" postag="n-s---mv-" /><notwords form="," />
@@ -8454,8 +8454,8 @@
 	<words index="6382" form="nimium" lemma="nimium" dict="nimium" shortdef="excessively" longdef="excessively, inordinately" postag="d-------p" /><notwords form="." />
 	<words index="6383" form="nunc" lemma="nunc" dict="nunc" shortdef="now" longdef="now" postag="d--------" />
 	<words index="6384" form="sīs" lemma="sum1" dict="sum esse fuī futūrus" shortdef="to be" longdef="to be; exist; (also used to form verb perfect passive tenses) (+ nom. perfect participle)" postag="v2spsa---" />
-	<words index="6385" form="mītissimus" lemma="mitis" dict="mītis mīte" shortdef="mild; ripe" longdef="mild, gentle, ripe" postag="a-s---mns" />
-	<words index="6386" form="ōrō" lemma="oro" dict="orō orāre orāvī orātus" shortdef="to pray" longdef="to pray (for), beg (for)" postag="v1spia---" />
+	<words index="6385" form="mītissimus" lemma="mitis" dict="mītis mīte" shortdef="mild; ripe" longdef="mild, gentle, ripe" postag="a-s---mns" /><notwords form="," />
+	<words index="6386" form="ōrō" lemma="oro" dict="orō orāre orāvī orātus" shortdef="to pray" longdef="to pray (for), beg (for)" postag="v1spia---" /><notwords form="," />
 </p>
 <p n="1032" id="urn:cts:latinLit:phi0890.phi001.chilberg:1032">
 	<words index="6387" form="et" lemma="et" dict="et" shortdef="and" longdef="and" postag="c--------" />
@@ -8598,7 +8598,7 @@
 	<words index="6492" form="bis" lemma="bis" dict="bis" shortdef="twice" longdef="twice (in composition bi–)" postag="d--------" />
 	<words index="6493" form="sex" lemma="sex" dict="sex; sextus –a –um" shortdef="6; 6th" longdef="6; 6th" postag="m--------" />
 	<words index="6494" form="corpora" lemma="corpus" dict="corpus corporis n." shortdef="body" longdef="body" postag="n-p---nn-" />
-	<words index="6495" form="Graium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
+	<words index="6495" form="Grāium" lemma="Graius" dict="Grāius –a –um (dissyl.)" shortdef="Graius" longdef="Greek, Greek; subs., Graius, ii, m., a Greek" postag="n-p---mg-" />
 </p>
 <p n="1049" id="urn:cts:latinLit:phi0890.phi001.chilberg:1049">
 	<words index="6496" form="quadrupedēsque" lemma="quadrupes" dict="quadrupēs or quadripēs –edis" shortdef="four–footed, on all fours" longdef="four–footed, on all fours, ubst., c., a quadruped, animal, beast; courser, steed (> quattuor and pes)" postag="a-p---mn-" />
