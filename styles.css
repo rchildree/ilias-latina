@@ -1,0 +1,102 @@
+* {
+	font-family: "Source Sans Pro", "ZephText", "Consolas NF";
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #96C0CE;
+}
+
+p {
+	font-size: 20px;
+	line-height: 26px;
+	position: relative;
+}
+
+p::before {
+	position: absolute;
+	left: -7rem;
+	bottom: -3.5px;
+	content: attr(data-ln);
+	display: inline-block;
+	width: 4rem;
+	font-size: .5rem;
+	line-height: 1.6rem;
+	font-feature-settings: "lnum", "tnum";
+	text-align: right;
+	opacity: .5;
+	text-indent: 0;
+}
+
+.indent {
+	text-indent: 1.5rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.entry{
+	font-size: 2rem;
+}
+
+em{
+	font-feature-settings: "c2cs" 1;
+	font-style: normal;
+	font-weight: bold;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	top: calc(100vh - 150px);
+	width: 100vw;
+	min-height: 150px; /* needs to be a specific number of pixels */
+	margin: auto;
+	padding-top:18px;
+	background-color: #89b0bd;
+	z-index: 250;
+	border-top: 4px solid #637f88;
+}
+
+ul>li{
+	margin:auto;
+	width:calc(45vw - 25px);
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	color: #d3615b;
+	font-size: 20px;
+	margin: 25px 0 5px;
+	font-feature-settings: "lnum", "pnum";
+}
+
+div {
+	padding: 50px;
+	margin: auto;
+	width: 45vw
+}
+
+div+div {
+	margin-top: 60px;
+}
+
+section {
+	background-color: #fcfcfc;
+	padding: 0px 0px 30px 25px;
+	border: 1px solid black;
+	box-shadow: 3px 3px 10px #5a5a5a;
+}
+
+section+section {
+	margin-top: 30px;
+}
+
+h1+section {
+	margin-top: 20px;
+}
