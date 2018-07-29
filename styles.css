@@ -1,5 +1,5 @@
 * {
-	font-family: "Minoan Pro","Aequitas","Minion Pro",sans-serif;
+	font-family: "Minoan Pro","Aequitas","Minion Pro", system-ui, -apple-system, BlinkMacSystemFont;
 	padding: 0;
 	margin: 0;
 	font-size: calc(20px + (30 - 20) * ((100vw - 750px) / (1600 - 750)));
