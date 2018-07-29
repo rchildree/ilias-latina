@@ -1,31 +1,30 @@
 * {
-	font-family: "Source Sans Pro", "ZephText", "Consolas NF";
+	font-family: "Minoan";
 	padding: 0;
 	margin: 0;
+	font-size: calc(20px + (30 - 20) * ((100vw - 750px) / (1600 - 750)));
 }
 
 body {
-	background-color: #96C0CE;
+	background-color: #f6feff;
 }
 
 p {
-	font-size: 20px;
-	line-height: 26px;
+	line-height: calc(30px + (40 - 30) * ((100vw - 750px) / (1600 - 750)));
 	position: relative;
+	vertical-align: middle;
 }
 
 p::before {
 	position: absolute;
-	left: -7rem;
-	bottom: -3.5px;
+	left: -5.25rem;
+	bottom: -1px;
+	color: rgba(0,0,0,0.2);
+	vertical-align: middle;
 	content: attr(data-ln);
-	display: inline-block;
 	width: 4rem;
-	font-size: .5rem;
-	line-height: 1.6rem;
 	font-feature-settings: "lnum", "tnum";
 	text-align: right;
-	opacity: .5;
 	text-indent: 0;
 }
 
@@ -38,48 +37,44 @@ p::before {
 }
 
 .entry{
-	font-size: 2rem;
+	font-weight: bold;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
 }
 
-em{
-	font-feature-settings: "c2cs" 1;
-	font-style: normal;
-	font-weight: bold;
+em {
+	font-style: italic;
+	font-size: inherit;
 }
 
 ul{
+	box-sizing: border-box;
 	list-style-type: none;
+	line-height: 1.1rem;
 	position: fixed;
-	top: calc(100vh - 150px);
+	bottom: 0;
 	width: 100vw;
-	min-height: 150px; /* needs to be a specific number of pixels */
-	margin: auto;
-	padding-top:18px;
-	background-color: #89b0bd;
+	height: calc(2.6rem + 6.2vh);
+	padding:2vh 4vh;
 	z-index: 250;
-	border-top: 4px solid #637f88;
+	background-color: #fcfcfc;
+	border: 1px solid black;
+	box-shadow: 3px 3px 10px #5a5a5a;
 }
 
-ul>li{
-	margin:auto;
-	width:calc(45vw - 25px);
-}
+/* ul>li{white-space: nowrap;} */
 
 h1 {
-	font-size: 30px;
+	font-size: 1.5rem;
+	margin-bottom:35px;
 }
 
-h2 {
-	color: #d3615b;
-	font-size: 20px;
-	margin: 25px 0 5px;
-	font-feature-settings: "lnum", "pnum";
-}
+
 
 div {
-	padding: 50px;
-	margin: auto;
-	width: 45vw
+	padding: 60px 60px;
+	margin: 0 auto 150px auto;
+	width: 25rem;
 }
 
 div+div {
@@ -87,16 +82,26 @@ div+div {
 }
 
 section {
-	background-color: #fcfcfc;
-	padding: 0px 0px 30px 25px;
-	border: 1px solid black;
-	box-shadow: 3px 3px 10px #5a5a5a;
+	/* background-color: #fcfcfc; */
+	padding-left: 20px;
+	/* border: 1px solid black; */
+	/* box-shadow: 3px 3px 10px #5a5a5a; */
 }
 
 section+section {
-	margin-top: 30px;
+	margin-top: 75px;
 }
+
+/* h2::after {
+	position: absolute;
+	content: "——————";
+	padding: 0px 10px;
+} */
 
 h1+section {
 	margin-top: 20px;
 }
+
+/*section p:nth-child(odd){
+	text-indent:1.5rem;
+}*/
