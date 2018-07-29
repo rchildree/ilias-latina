@@ -127,7 +127,7 @@ const tagCatalog = [
 	};
 	
 	const doInfo = function() {
-		const bubbleTop = document.querySelector("div");
+		const bubbleTop = document.querySelector("#container");
 		bubbleTop.addEventListener("mouseover", function(event) { // "click" is another way to go
 			if (event.target.tagName === "SPAN") {
 				let clickedWord = event.target;
@@ -139,7 +139,8 @@ const tagCatalog = [
 				let infoBox = 
 					`
 						<li><span class="entry">${wordForm}</span> &nbsp; <span style="font-feature-settings: 'c2sc', 'smcp';">${wordPos}</span></li>
-						<li>${wordDict}: <em>${wordDef}</em></li>
+						<li>${wordDict}</li>
+						<li><em>${wordDef}</em></li>
 					`;
 				document.querySelector("#info").innerHTML = infoBox;
 			}
