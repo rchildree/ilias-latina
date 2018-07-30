@@ -31,10 +31,27 @@ p::before {
 p:hover::before {
 	opacity:1;
 	font-weight:bold;
-	color: #c90000;
+	color: #CA1E47;
 }
 
-p:hover {color: #c90000;}
+p:hover {color: #CA1E47;}
+
+[data-bookbegin]::after {
+	content: attr(data-bookbegin);
+	position: absolute;
+	right: -2em;
+	padding: 0 25px;
+	color:#fff;
+	font-size: .75rem;
+	font-style: italic;
+	font-weight: normal;
+	font-feature-settings: "pnum", "onum";
+	text-align: right;
+	background-color:#CA1E47;
+	box-shadow: 0 2px 5px 0 #000;
+	z-index: 1;
+	text-indent: 0;
+}
 
 .indent {
 	text-indent: 1.5rem;
@@ -78,7 +95,8 @@ ul{
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-weight: normal;
+	font-size: 1.1rem;
 	padding: 30px 25px 25px;
 	text-align: center;
 	background-color:#273d5c;
