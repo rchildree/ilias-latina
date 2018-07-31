@@ -36,6 +36,8 @@ p:hover::before {
 
 p:hover {color: #CA1E47;}
 
+span:hover{border-bottom:2.5px dotted #CA1E47;}
+
 [data-bookbegin]::after {
 	content: attr(data-bookbegin);
 	position: absolute;
