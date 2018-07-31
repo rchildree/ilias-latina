@@ -38,7 +38,7 @@ p:hover::before {
 
 span:hover{
 	color: #CA1E47;
-	border-bottom:2.5px dotted #CA1E47;
+	border-bottom:3px dotted #CA1E47;
 }
 
 [data-bookbegin]::after {
