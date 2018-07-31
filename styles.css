@@ -34,9 +34,12 @@ p:hover::before {
 	color: #CA1E47;
 }
 
-p:hover {color: #CA1E47;}
+/* p:hover {color: #CA1E47;} */
 
-span:hover{border-bottom:2.5px dotted #CA1E47;}
+span:hover{
+	color: #CA1E47;
+	border-bottom:2.5px dotted #CA1E47;
+}
 
 [data-bookbegin]::after {
 	content: attr(data-bookbegin);
