@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #eeeeee;
+	background-color: #f1f0f0;
 }
 
 p {
@@ -83,7 +83,7 @@ em {
 	left:0;
 	padding: 25px 0 25px 25px;
 	background-color: #d5f2fa;
-	box-shadow: -2px 2px 8px 0px #000;
+	box-shadow: -2px 2px 2px 0px #133441;
 	position: -webkit-sticky;
 	position: sticky;
 	overflow: hidden;
@@ -94,7 +94,7 @@ ul{
 	line-height: 1.1rem;
 	/* overflow-x: hidden; */
 	margin: auto;
-	color: #133441;
+	color: #213450;
 	width: 27rem;
 	padding-left: 25px;
 }
@@ -104,7 +104,7 @@ h1 {
 	font-size: 1.1rem;
 	padding: 30px 25px 25px;
 	text-align: center;
-	background-color:#273d5c;
+	background-color:#213450;
 	color: #ffffff;
 }
 
