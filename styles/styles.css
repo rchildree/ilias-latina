@@ -1,0 +1,341 @@
+/* ---------------------------- FONT IMPORTS -------------------------------------------------- */
+@font-face {
+	font-family: 'EBGaramond';
+	src: url('../fonts/EBGaramond-VAR.ttf') format('truetype-variations');
+	font-weight: 450;
+	font-style: normal;
+}
+   
+@font-face {
+	font-family: 'EBGaramond';
+	src: url('../fonts/EBGaramond-Italic-VAR.ttf') format('truetype-variations');
+	font-weight: 450;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'EBGaramond';
+	src: url('../fonts/EBGaramond-Bold.otf') format('opentype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Neohellenic';
+	src: url('../fonts/Neohellenic-Regular.otf') format('opentype');
+	font-weight: 400;
+}
+
+/* ---------------------------- HOUSEKEEPING -------------------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'EBGaramond', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+	font-size: clamp(20px, 1.9vw, 40px);
+	font-weight: 450;
+	font-feature-settings: "liga";
+}
+
+html{scroll-padding-top: 45vh;}
+
+:root{
+	--bg-gray: #f1efec;
+	--highlight: #ec0951;
+	--ros-liblue: #07b9dd;
+	--ros-dkblue: #024755;
+
+	--width-prose: 65ch;
+	--width-poetry: 55ch;
+	--width-longline: 70ch;
+}
+
+body {
+	background-color: var(--bg-gray);
+	overflow-x:hidden;
+}
+
+/* ---------------------------- HEADER -------------------------------------------------------- */
+header {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 35px;
+	background-color: var(--ros-liblue);
+	z-index: 6;
+}
+/* ---------------------------- Menu ----------------------------------------------------------- */
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav hgroup {
+	margin: auto auto 3px 10px;
+	font-size: 21px;
+	max-width: calc(100vw - 70px - 48px - 25px);
+}
+
+nav hgroup h1, nav hgroup h2 {
+	display: inline-block;
+	color: #f3f3f3;
+	font-size: 21px;
+	font-weight: 450;
+	font-feature-settings: "onum", "pnum";
+}
+
+nav hgroup h1 {
+	font-feature-settings: "c2sc", "smcp";
+	letter-spacing: .05em;
+}
+
+nav input {display: none;}
+
+nav input:checked ~ .nav__list {display:flex;}
+nav input:checked ~ label>#menu {display:none;}
+nav input:checked ~ label>#close {display:block;}
+
+nav label {
+	cursor: pointer;
+	user-select: none;
+	height: 24px;
+	display: flex;
+	vertical-align: middle;
+}
+nav label>svg {
+	position:relative;
+	top:0;
+	height:24px;}
+nav label>#close{display: none;}
+
+nav label > svg:hover {opacity: .5;}
+
+.nav__list {
+	display: none;
+	position: fixed;
+	left:0;
+	bottom:50px;
+	width:100%;
+	height:calc(100vh - 50px);
+	margin: 0;
+	padding: 35px 35px 0;
+	align-content: center;
+	background-color: var(--ros-liblue);	
+}
+
+.nav__list ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 1.25rem);
+	align-self: center;
+	justify-items: center;
+	justify-content: space-between;
+	list-style-type: none;
+	background-color: #ffffff;
+	border-radius: 5px;
+	width: 80%;
+	height: min-content;
+	margin: 20px auto 15px;
+	padding: 48px;
+	column-gap: 10px;
+	/*overflow-y: scroll;*/
+}
+
+nav ul a{
+	display: block;
+	text-decoration: none;
+	font-feature-settings: "tnum";
+	color: #000000;
+	font-size: .7rem;
+	padding: .25rem;
+}
+
+nav ul a:hover {
+	font-weight: 700;
+	color: #ffffff;
+	background: var(--highlight);
+	border-radius: 5px;
+}
+
+/* ---------------------------- PARSING --------------------------------------------------------- */
+aside {
+	position: sticky; top: 0; left: 0;
+	z-index: 5;
+	padding: 25px 35px;
+	background-color: var(--bg-gray);
+}
+
+#info{
+	width: var(--width-prose);
+	margin: 0 auto;
+	/* padding-bottom:30px; */
+	position: relative;
+	list-style-type: none;
+}
+
+aside.poetry #info {width: var(--width-poetry)}
+aside.comedy #info  {width: var(--width-longline)}
+
+#message{
+	opacity:.2;
+}
+
+#info li {
+	font-size: max(18px, .75rem);
+	line-height: .8rem;
+	text-decoration: none;
+}
+
+#firstline {text-indent:-4rem}
+
+#citation {
+	color: #ec0951;
+	font-feature-settings: "lnum", "tnum";
+	display: inline-block;
+	width: 4rem;
+	font-size: .65rem;
+	padding-right: .75rem;
+	text-align: right;
+}
+
+#entry {
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: .9rem;
+}
+
+#pos{
+	line-height:.7rem;
+	font-feature-settings: 'c2sc', 'smcp','onum';
+}
+
+em {
+	font-style: italic;
+	font-size: inherit;
+}
+
+b {
+	color: #CA1E47;
+	font-weight: 700;
+	font-size: .75rem;
+}
+b[id] {font-size: inherit;}
+b[id]::before {content: '[';}
+b[id]::after {content:']'}
+
+/* ---------------------------- MAIN ---------------------------------------------------------- */
+main {
+	width: 100%;
+	margin: 0 0 100px;
+}
+
+section {
+	width: calc(var(--width-prose) + 70px);
+	padding: 35px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-radius: 5px; 
+}
+
+h3 {
+	font-weight: 450;
+	margin-bottom: .75rem;
+	font-feature-settings: 'smcp','c2sc','onum';
+	border-bottom: 1.5px solid var(--ros-liblue);
+}
+
+p {
+	line-height: 1.6rem;
+	position: relative;
+}
+
+p::before, .textnote::before {
+	position: absolute;
+	left: -5rem;
+	font-size: .75rem;
+	bottom: -1px;
+	color: #000000;
+	content: attr(data-ln);
+	width: 3rem;
+	font-feature-settings: "lnum", "tnum";
+	text-align: right;
+	text-indent: 0;
+	opacity:0.2;
+}
+
+p:hover::before {
+	opacity:1;
+	font-weight: 700;
+	color: var(--highlight);
+}
+
+.textnote::before {
+	content: "† " attr(data-ln);
+}
+
+p+p {
+	margin-top: 1rem;
+}
+
+section+section {
+	margin-top: 2rem;
+}
+
+main.elegiac [data-ln]:nth-child(odd){
+	text-indent:1.5rem;
+}
+main.poetry section {width: calc(var(--width-poetry) + 70px)}
+main.comedy section {width: calc(var(--width-longline) + 70px)}
+main.poetry p+p {margin-top:0;}
+
+.peo+.peo{
+	margin-top:0;
+}
+
+.sc{
+	font-feature-settings: "c2sc", "smcp";
+}
+
+.peo{
+	font-style: italic;
+}
+
+.grk{
+	font-family: 'Neohellenic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+.lac{
+	color:var(--highlight);
+	vertical-align: middle;
+	padding: 0 12px;
+}
+
+[data-cite]:hover{
+	color: var(--highlight);
+	cursor: pointer;
+}
+
+.para{
+	margin-top:1.5rem;
+}
+
+/* ---------------------------- RESPONSIVE ---------------------------------------------------- */
+
+@media screen and (max-width:800px){
+
+	body {
+		background-color: #ffffff;
+		width:100%;
+	}
+	#info {margin:0;}
+	#firstline {text-indent: 0;}
+	#citation {
+		width: auto;
+		text-align: left;
+	}
+	section {width: 100%;}
+	
+}
