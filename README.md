@@ -1,8 +1,8 @@
-# suetonius-caligula
+# ilias-latina
 
-[https://rchildree.github.io/suetonius-caligula/](https://rchildree.github.io/suetonius-caligula)
+[https://rchildree.github.io/ilias-latina/](https://rchildree.github.io/ilias-latina)
 
-A student reader’s edition of Suetonius, *Life of Caligula*, with morphological tagging and edited by Randall Childree.
+A student reader’s edition of the *Ilias Latina*, with morphological tagging and edited by Randall Childree.
 
 Featuring corrected and adjusted vocabulary data from [The Bridge](https://bridge.haverford.edu).
 
