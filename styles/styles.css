@@ -128,7 +128,7 @@ nav label > svg:hover {opacity: .5;}
 
 .nav__list ul {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 1.25rem);
+	grid-template-columns: repeat(auto-fit, minmax(8ch,1fr));
 	align-self: center;
 	justify-items: center;
 	justify-content: space-between;
@@ -140,6 +140,7 @@ nav label > svg:hover {opacity: .5;}
 	margin: 0 auto;
 	padding: 48px;
 	column-gap: 10px;
+	white-space: nowrap;
 	/*overflow-y: scroll;*/
 }
 
@@ -183,7 +184,7 @@ aside.comedy #info  {width: var(--width-longline)}
 }
 
 #info li {
-	font-size: max(18px, .75rem);
+	font-size: max(16px, .75rem);
 	line-height: .8rem;
 	text-decoration: none;
 }
@@ -222,9 +223,10 @@ b {
 	font-size: .75rem;
 }
 b[id] {font-size: inherit;}
+/* 
 b[id]::before {content: '[';}
 b[id]::after {content:']'}
-
+ */
 /* ---------------------------- MAIN ---------------------------------------------------------- */
 main {
 	width: 100%;
@@ -253,12 +255,12 @@ p {
 
 p::before, .textnote::before {
 	position: absolute;
-	left: -5rem;
+	left: -5.5rem;
 	font-size: .75rem;
 	bottom: -1px;
 	color: #000000;
 	content: attr(data-ln);
-	width: 3rem;
+	width: 3.25rem;
 	font-feature-settings: "lnum", "tnum";
 	text-align: right;
 	text-indent: 0;
@@ -283,12 +285,12 @@ section+section {
 	margin-top: 2rem;
 }
 
-main.elegiac [data-ln]:nth-child(odd){
+.elegiac [data-ln]:nth-child(odd){
 	text-indent:1.5rem;
 }
-main.poetry section {width: calc(var(--width-poetry) + 70px)}
-main.comedy section {width: calc(var(--width-longline) + 70px)}
-main.poetry p+p {margin-top:0;}
+.poetry section {width: calc(var(--width-poetry) + 70px)}
+.comedy section {width: calc(var(--width-longline) + 70px)}
+.poetry p+p {margin-top:0;}
 
 .peo+.peo{
 	margin-top:0;
@@ -335,6 +337,8 @@ main.poetry p+p {margin-top:0;}
 		width: auto;
 		text-align: left;
 	}
+	nav hgroup {margin-left: 0;}
+	nav label, nav input {display:none;}
 	section {width: 100%;}
 	
 }
